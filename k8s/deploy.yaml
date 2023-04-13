@@ -29,7 +29,7 @@ spec:
             - containerPort: 80
           env:
             - name: APP_NAME
-              value: "laravel"
+              value: "Laravel"
             - name: APP_ENV
               value: "production"
             - name: APP_KEY
@@ -74,4 +74,4 @@ spec:
             - name: MAIL_FROM_ADDRESS
               value: "hello@example.com"
             - name: MAIL_FROM_NAME
-              value: "laravel"
+              value: "Laravel"
